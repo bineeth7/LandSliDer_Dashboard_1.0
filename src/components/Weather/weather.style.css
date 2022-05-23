@@ -1,0 +1,16 @@
+.container {
+    margin-top: 4rem;
+  
+  }
+  
+  .container input,
+  .container ::-webkit-input-placeholder {
+    color: rgb(0, 0, 0) !important;
+  }
+  .container input:focus {
+    background-color: transparent;
+    box-shadow: none !important;
+    border: none;
+    border-bottom: 2px solid rgba(170, 39, 16, 0.847);
+  }
+  
